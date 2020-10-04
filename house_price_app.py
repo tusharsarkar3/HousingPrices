@@ -193,7 +193,7 @@ def main():
     #model = joblib.load("FinalPipeline.joblib")
     #st.write(featues)
     pk = open("classifier.pkl", 'rb')
-    m = pickle.load(pk)
+    m = joblib.load("classifier.pkl")
     price = np.power(m.predict(featues.reshape(1,17)),5)
     st.write("Predicted price of the house is : $",price[0])
     st.line_chart(m.feature_importances_)

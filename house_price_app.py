@@ -162,7 +162,7 @@ def main():
 
     garage_area = st.sidebar.number_input("Garage Area", 0.0, 1418.0, step=50.0, key='C_S')
 
-    pool_area = st.sidebar.selectbox("Number of bedrooms",
+    pool_area = st.sidebar.selectbox("Pool Area",
                                      tuple([0, 512, 648, 576, 555, 480, 519, 738]))
 
     total_area = house_final.LotArea + house.GarageArea + house_final.PoolArea + house_final.TotalBsmtSF

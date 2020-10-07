@@ -14,8 +14,8 @@ import seaborn as sns
 import joblib
 
 def main():
-    st.title("House Price Prediction ")
-    st.sidebar.title("House Price Prediction Web App")
+    st.title("House Price Estimation ")
+    st.sidebar.title("House Price Estimation Web App")
     st.markdown("What is the price of your favourite house ? 🏠")
     st.sidebar.markdown("What is the price of your favourite house ? 🏠")
 

@@ -270,12 +270,12 @@ def main():
     if st.sidebar.checkbox("Data descriptions", False):
         st.subheader("USA House Prices")
         st.markdown(
-"MSZoning: Identifies the general zoning classification of the sale."
+"MSZoning: Identifies the general zoning classification of the sale.\n"
 		
-       "A	Agriculture"
-       "C	Commercial"
-       "FV	Floating Village Residential"
-       "I	Industrial"
+       "A	Agriculture\n"
+       "C	Commercial\n"
+       "FV	Floating Village Residential\n"
+       "I	Industrial\n"
        "RH	Residential High Density"
        "RL	Residential Low Density"
        "RP	Residential Low Density Park "
